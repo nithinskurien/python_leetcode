@@ -42,7 +42,7 @@ class Solution:
         output = []
         hashmap = {}
         for index in range(len(nums)):
-            targetBalance =  hashmap.get(target - nums[index])
+            targetBalance = hashmap.get(target - nums[index])
             if targetBalance is not None:
                 return [targetBalance, index]
             hashmap[nums[index]] = index
