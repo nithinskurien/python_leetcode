@@ -28,7 +28,7 @@
 #
 # Logic:
 # The first val in the preorder is always the root, while the left and right side of the index of root in inorder is the
-# left and right node. We can use this to recursively build the left and right nodes. 
+# left and right node. We can use this to recursively build the left and right nodes.
 
 
 from typing import Optional
