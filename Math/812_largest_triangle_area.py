@@ -23,7 +23,8 @@
 # -50 <= xi, yi <= 50
 # All the given points are unique.
 #
-# Logic: We can use the shoelace triangle area formula where area of a triangle with 3 point A, B & C is
+# Logic:
+# We can use the shoelace triangle area formula where area of a triangle with 3 point A, B & C is
 # 0.5 * abs(A[x] * (B[y] - C[y]) + B[x] * (C[y] - A[y]) + C[x] * (A[y] - B[y])). We can then use combinations package
 # to get all the possible combinations of 3 points and iterate over it till we get the max area.
 
