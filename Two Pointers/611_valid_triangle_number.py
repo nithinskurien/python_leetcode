@@ -24,7 +24,8 @@
 # 1 <= nums.length <= 1000
 # 0 <= nums[i] <= 1000
 #
-# Logic: We can use the triangle inequality theorem which states that for the sides to make a valid triangle the sum
+# Logic:
+# We can use the triangle inequality theorem which states that for the sides to make a valid triangle the sum
 # of 2 sides should be greater that then the third side. i.e a + b > c, a + c > b, c + b > a. If we sort the numbers
 # then we can simplify the search such that if a, b, c are the sorted numbers then we just need to check if a + b > c
 # as c is bigger than a or b individually. As the numbers are sorted we can pin the last number and check the
