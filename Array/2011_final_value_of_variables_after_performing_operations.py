@@ -47,7 +47,7 @@
 # operations[i] will be either "++X", "X++", "--X", or "X--".
 #
 # Logic:
-# We can just check if the operation has the + or - sign and then either increment or decrement the result. 
+# We can just check if the operation has the + or - sign and then either increment or decrement the result.
 
 
 class Solution:
