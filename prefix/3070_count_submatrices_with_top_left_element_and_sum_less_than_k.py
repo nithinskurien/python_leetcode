@@ -28,7 +28,7 @@
 #
 # Logic:
 # We can use prefix sum to get the sum of the first row, first col and then use that to compute the prefix matrix. For
-# every sum we do we can check if the sum is less than or equal to k if yes we can increment the result. 
+# every sum we do we can check if the sum is less than or equal to k if yes we can increment the result.
 
 class Solution:
     def countSubmatrices(self, grid: list[list[int]], k: int) -> int:
